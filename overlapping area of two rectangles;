@@ -1,0 +1,16 @@
+import math
+z=[eval(i) for i in input().split(' ')]
+x1=z[0][0]
+y1=z[0][1]
+x2=z[1][0]
+y2=z[1][1]
+x3=z[2][0]
+y3=z[2][1]
+x4=z[3][0]
+y4=z[3][1]
+if x1>x4 or x3>x2:
+    print(0)
+else:
+    k=abs(x3-x2)
+    l=abs(y3-y2)
+    print(k*l)
